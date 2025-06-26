@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f80b09;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    gap: 40px;
+}
+.card .name{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card{
+    width: 300px;
+    height: 379px;
+    border-radius: 20px;
+    background: url(https://i.pinimg.com/736x/3e/62/23/3e62233ce8e892ef81208d21539a81c6.jpg)center bottom no-repeat;
+    background-size: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    transition: background 0.85s ease, background-size 0.85s ease;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .border-box{
+    width: 100%;
+    height: 100%;
+    border: 10px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    box-sizing: border-box;
+} */
+.card:hover{
+    background: url(https://i.pinimg.com/736x/3e/62/23/3e62233ce8e892ef81208d21539a81c6.jpg)left center no-repeat;
+    background-size: 600px;
+    cursor: pointer;
+    box-shadow: white;
+}
+/* .card.alt{
+    background: url(https://i.pinimg.com/736x/8a/6c/5e/8a6c5e78d507849be895b5e94a1cffad.jpg)center center no-repeat;
+    background-size: 300px;
+}
+.card.alt:hover{
+    background: url(https://i.pinimg.com/736x/8a/6c/5e/8a6c5e78d507849be895b5e94a1cffad.jpg)right center no-repeat;
+    background-size: 600px;
+} */
