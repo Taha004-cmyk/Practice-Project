@@ -1,0 +1,78 @@
+/* css for nav bar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #23618b;
+}
+
+header {
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    border-radius: 10px;
+    margin: 20px 10px 0 10px;
+    height: 70px;
+}
+
+.glass-card {
+    display: flex;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 20px 8%;
+    color: white;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    width: 98%;
+    height: 70px;
+}
+
+.logo {
+    font-size: 40px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul li {
+    display: inline-block;
+
+}
+
+ul li a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: white;
+    margin-right: 40px;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+button {
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    margin-left: 5px;
+    background-color: #23618b;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+button:hover {
+    text-decoration: underline;
+}
