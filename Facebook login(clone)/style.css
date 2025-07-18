@@ -1,0 +1,109 @@
+body {
+    background-color: #f2f4f7;
+}
+
+.content {
+    display: inline-block;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+
+h1 {
+    font-family: 'Facebook Sans', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 16.08px;
+    color: #0866ff;
+}
+
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    color: rgb(28, 30, 33);
+}
+
+/* css for form */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    width: 360px;
+    height: 314px;
+    margin-top: 150px;
+    margin-left: 700px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input input {
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid rgb(151, 151, 151);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(151, 151, 151);
+}
+
+.Login-btn {
+    background-color: #0866ff;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+a {
+    color: #0866ff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0 10px 0;
+}
+
+.cna {
+    background-color: #42b72a;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 10px 12px 10px;
+    border: none;
+    border-radius: 8px;
+    margin: 0 70px 0 70px;
+    cursor: pointer;
+}
+/* css for effects */
+a:hover {
+    text-decoration: underline;
+}
+
+input:focus {
+    border: 2px solid #0866ff;
+    outline: none;
+}
+.Login-btn:hover{
+    background-color: #0866ff;
+    opacity: 0.8;
+}
+.cna:hover{
+    background-color: #42b72a;
+    opacity: 0.9;
+}
+input:enabled{
+    color: black;
+}
